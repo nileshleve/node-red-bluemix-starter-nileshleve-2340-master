@@ -1,9 +1,11 @@
 The aim of this project is to enable a person to auto reply on all tweets having his/her mention. For this we need sophisticated natural language processing and machine learning tools provided by IBM Bluemix Natural Language Classifier API. We use this API to classify all public tweets with a given twitter handle into the following five categories:
+
 Request
 Complaint
 Feedback
 Query
 Opinion
+
 All public tweets with the mention of the twitter handle "BluemixNLCTest" are picked by the web App and are passed to pre-trained Watson AI which classifies the tweets into above five categories by using confidence scores. Next we use this to form auto reply tweets with desired messages which are sent to the sender of that public tweet.
 
 
